@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-Vendor: TIBCO Software Inc.
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: lib/com.ibm.mq.headers.jar,lib/com.ibm.mq.jar,lib/co
+ m.ibm.mq.jmqi.jar,lib/com.ibm.mqjms.jar,lib/fscontext.jar,lib/jndi.ja
+ r,lib/ldap.jar,lib/dhbcore.jar,lib/providerutil.jar,.
+Bundle-Version: 1.0.0.DEV-2016-03-22-0252-awagle
+Bundle-Name: IBM MQ Fragment for BW JMS Shared Resource
+Bundle-Activator: com.tibco.bw.sr.jms.runtime.ibmmq.client.Activator
+Bundle-ManifestVersion: 2
+Import-Package: com.tibco.bw.sharedresource.trinity.ssl.client.runtime
+ ;version="[6.4.0,7.0.0)",com.tibco.bw.sr.jms.runtime.api;version="[6.
+ 4.0,7.0.0]",javax.jms;version="[1.1.0,3.0.0)",org.osgi.framework;vers
+ ion="[1.6.0,2.0.0)"
+Bundle-SymbolicName: com.tibco.bw.sharedresource.jms.runtime.ibmmq.cli
+ ent
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7

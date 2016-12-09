@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright (c) 2013 TIBCO Software Inc. ALL RIGHTS RESERVED -->
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="com.tibco.bw.sr.jms.runtime.ibmmq.client">
+   <implementation class="com.tibco.bw.sr.jms.runtime.ibmmq.client.service.IBMMQProvider"/>
+   <service>
+      <provide interface="com.tibco.bw.sr.jms.runtime.api.JMSProviderHelper"/>
+   </service>
+</scr:component>

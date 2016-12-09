@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/Db2DataSourceFactory.xml,OSGI-INF/Db2DataS
+ ourceFactoryzos.xml
+Bundle-Vendor: TIBCO Software Inc
+Bundle-ClassPath: lib/db2jcc_license_cisuz.jar,.,lib/db2jcc4.jar
+Bundle-Version: 9.1.0.qualifier
+Bundle-Name: TIBCO BW DB2 Datasourcefactory
+Bundle-ManifestVersion: 2
+Import-Package: org.osgi.framework;version="[1.6.0,2.0.0)",org.osgi.se
+ rvice.jdbc;version="[1.0.0,2.0.0)"
+Bundle-SymbolicName: com.tibco.bw.jdbc.datasourcefactory.db2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+
+

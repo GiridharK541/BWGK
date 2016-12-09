@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.tibco.bw.sharedresource.jms.runtime.jboss.cli
+ ent
+Bundle-Name: JBoss Fragment for BW JMS Shared Resource
+Bundle-Version: 1.0.0.201604011226
+Bundle-ClassPath: lib/concurrent.jar,lib/jboss-client.jar,lib/jboss-co
+ mmon-core.jar,lib/jboss-system-client.jar,lib/jnp-client.jar,lib/log4
+ j.jar,lib/commons-logging.jar,lib/jboss-logging-jdk.jar,lib/jboss-log
+ ging-log4j.jar,lib/jboss-logging-spi.jar,lib/slf4j-jboss-logging.jar,
+ lib/jboss-messaging-client.jar,lib/jboss-remoting.jar,lib/trove.jar,l
+ ib/javassist.jar,lib/jboss-mdr.jar,lib/jboss-aop-client.jar,lib/jboss
+ -serialization.jar,.
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.tibco.bw.sr.jms.runtime.jboss.client.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: TIBCO Software Inc.
+Import-Package: com.tibco.bw.sharedresource.trinity.ssl.client.runtime
+ ;version="6.4.100",com.tibco.bw.sr.jms.runtime.api;version="6.4.100",
+ javax.jms;version="[1.1.0,3.0.0)",org.osgi.framework;version="[1.6.0,
+ 2.0.0)"
